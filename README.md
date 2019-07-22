@@ -3,7 +3,7 @@ Flickster is an app that allows users to browse movies from the [The Movie Datab
 
 Submitted by: John Boby **Mesadieu**
 
-Time spent: 15 hours
+Time spent: 21 hours
 
 
 ## Flix Part 2
