@@ -6,8 +6,6 @@ Submitted by: John Boby **Mesadieu**
 Time spent: 15 hours
 
 
-📝 `NOTE` Paste this template at the top of your existing `README.md` file from part 1 of this assignment. (🚫 Remove this paragraph after after checking off completed user stories)
-
 ## Flix Part 2
 
 ### User Stories
@@ -28,7 +26,7 @@ Time spent: 15 hours
 
 ### App Walkthough GIF
 
-<img src="https://github.com/JBobyM/Flickster/blob/master/Walkthrough3.gif" width=250><br>
+<img src="https://github.com/JBobyM/Flickster/blob/master/final_walkthrough.gif" width=250><br>
 
 ### Notes
 
