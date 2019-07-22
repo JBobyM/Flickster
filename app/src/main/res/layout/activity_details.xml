@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="TextView"
+        android:layout_below="@id/player"
+        tools:text="Crawl"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="10"
+        android:layout_below="@id/tvTitle"
+        android:rating="8.2"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvOverview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Juste pour voir."
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_below="@id/ratingBar"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/background_light"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/tvOverview2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="17sp"
+        android:textColor="@android:color/holo_green_dark"
+
+        />
+
+    <TextView
+        android:id="@+id/tvPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDate"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="TextView" />
+
+
+</RelativeLayout>
